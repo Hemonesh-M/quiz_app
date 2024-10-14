@@ -50,7 +50,7 @@ class QuestionSummary extends StatelessWidget {
                           textAlign: TextAlign.left,
                           style: GoogleFonts.lato(
                             color: Colors.white,
-                            fontSize: 15,
+                            fontSize: 20,
                           ),
                         ),
                         const SizedBox(height: 8),

@@ -68,7 +68,7 @@ class _QuizState extends State<Quiz> {
     } else if (activeScreen == 'ResultScreen') {
       return ResultScreen(restartQuiz, selectedAnswer);
     }
-    return const Text('ERROR LOL!!!@!!');
+    return const Text('Invalid Value in activeScreen string');
   }
 
   @override
