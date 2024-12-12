@@ -1,8 +1,8 @@
 name: quiz_app
-description: "A new Flutter project."
+description: "Quiz app about Flutter Basics"
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 2.0.0+1
 
 environment:
   sdk: '>=3.4.1 <4.0.0'

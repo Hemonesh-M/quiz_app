@@ -16,7 +16,7 @@ class QuestionSummary extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               decoration: BoxDecoration(
                 color: const Color.fromARGB(217, 16, 4, 104),
-                borderRadius: BorderRadius.circular(50.0),
+                borderRadius: BorderRadius.circular(30.0),
               ),
               child: Row(
                 //crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +28,6 @@ class QuestionSummary extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         // minimumSize: const Size(50, 50),
                         foregroundColor: Colors.white,
-                        fixedSize: const Size.square(4),
                         shape: const CircleBorder(),
                         backgroundColor: data['correct_ans'] == data['user_ans']
                             ? const Color.fromARGB(255, 3, 107, 6)

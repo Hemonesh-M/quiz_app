@@ -20,7 +20,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
       curQuestionidx++;
     });
   }
-
   @override
   Widget build(context) {
     final currentQuestion = questions[curQuestionidx];
