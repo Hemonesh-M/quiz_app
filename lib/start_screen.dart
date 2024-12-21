@@ -40,7 +40,7 @@ class StartScreen extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'Learn Flutter The Fun Way',
+            'Learn Flutter The Fun Way UPDATE W/O build',
             style: GoogleFonts.lato(
               color: Colors.white,
               fontSize: 24,
